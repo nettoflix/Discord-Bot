@@ -5,10 +5,6 @@ const fs = require('fs')
 //discord stuff
 const { Client, Intents, Constants, MessageAttachment } = require('discord.js');
 const Canvas = require('canvas');
-//const token = 'OTU3Mjk4Njk1MTI3MzE4NTY5.Yj8v4g.pGLahZOSuvA2JwNIwy67QZUjNng';
-//const clientId = '957298695127318569';
-//const guildId = '890258270890123366';
-console.log(process.env.token);
 const token = process.env.token;
 const clientId = process.env.clientId;
 const guildId = process.env.guildId;
